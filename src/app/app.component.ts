@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'myProject';
+
+  myTitle: string = "Title is changed"
+  myJSON = {
+    "k1": "v1"
+  }
+
+  clickMe() {
+    // window.location = "/mycomponent";
+  }
 }
